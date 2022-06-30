@@ -40,10 +40,9 @@ while secret_word != user_guesses and guesses_counter != guesses :
 
 # make sure if the user winner or loser .
 if guesses_counter == guesses and secret_word != user_guesses:
-    print("sorry but you lose")
+    print("sorry but you lose the game")
 else:
     print("you win!")
     print("with points:-",points)
     print("& Remaining guesses :-",Remaining_guesses)
-
 
